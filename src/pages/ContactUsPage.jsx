@@ -8,8 +8,8 @@ const ContactUs = () => {
        <Background className='pb-1.5'/>
        
        </div>
-      <div className='p-20 grid place-items-center bg-fuchsia-600'>
-        <div></div>
+      <div className='p-20 grid place-items-center '>
+        <div>sdfsd</div>
 </div>
     </section>
   )
