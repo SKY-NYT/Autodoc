@@ -12,7 +12,7 @@ const Background = () => {
     <>
     
       
-        <section className='   text-white flex justify-center' >
+        <section className='   text-white flex justify-center pt-24' >
         <div className='flex-col  border-x-28 w-full  '>
         <div className='relative overflow-hidden h-40 '>
             

@@ -10,8 +10,8 @@ const linkClass = ({isActive}) => isActive
   return (
     <nav>
       
-      
-      <div className='flex justify-center gap-9 p-4'>
+      <div className=" place-items-center w-screen fixed  z-10 bg-white">
+      <div className='flex justify-center gap-9 p-4 '>
       <div className='text-3xl pr-28 text-'>
         <span className='text-orange-600'>AUTO</span>DOCS
         <p className='text-base '>#1 Automobile Repairs </p>
@@ -27,7 +27,7 @@ const linkClass = ({isActive}) => isActive
         <SearchButton/>   
     </div>
       </div>
-    
+      </div>
     </nav>
   )
 }

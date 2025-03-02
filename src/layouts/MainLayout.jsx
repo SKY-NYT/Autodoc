@@ -8,7 +8,7 @@ import React from 'react'
 const MainLayout = () => {
   return (
     <>
-    <Navbar className="fixed pb-16" />
+    <Navbar/>
     <Outlet/>
     <End/>
     <ToastContainer/>

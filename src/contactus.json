@@ -1,0 +1,17 @@
+[
+    {
+        "title":"Call Us",
+        "description": ["Tel: 0596498103","Email: fiko8464@gamil.com"]
+        
+    },
+
+    {"title":"Visit Us",
+        "description": ["City: Kumasi" ,"Country: Ghana"]
+        
+    },
+    {
+        "title":"Opening Hours",
+        "description":["Mon - Fri 7am -10pm","Sat 7am - 3pm"]
+        
+    }
+]
