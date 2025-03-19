@@ -13,9 +13,9 @@ const Navbar = () => {
 
   return (
     <nav>
-      <div className=" flex  md:grid place-items-center  w-screen fixed  z-30 bg-white">
+      <div className=" md:pt-5 flex  md:grid place-items-center fixed w-full top-[-20px] z-30 bg-white">
         <div className="flex justify-center gap-9 p-7 md:p-4 ">
-          <div className="text-3xl pr-28 text-">
+          <div className="text-3xl pr-28 ">
             <span className="text-orange-600">AUTO</span>DOCS
             <p className="text-base ">#1 Automobile Repairs </p>
           </div>
@@ -24,7 +24,7 @@ const Navbar = () => {
               <IoClose
                 size={40}
                 onClick={toggle}
-                className="cursor-pointer z-20 absolute right-5"
+                className="fixed cursor-pointer z-50  right-5"
               />
             ) : (
               <LuMenu
@@ -60,7 +60,7 @@ const Navbar = () => {
 
           {/* Mobile Menu  */}
           {menuOpen && (
-            <div className=" fixed bg-white top-0 right-0 h-full  py-40 px-15 flex w-5/6 flex-col gap-8 text-left font-bold text-2xl md:hidden">
+            <div className=" z-40 fixed bg-white top-0 right-0 h-full  py-40 px-15 flex w-5/6 flex-col gap-8 text-left font-bold text-2xl   md:hidden">
               <NavLink to="/" className={linkClass} onClick={toggle}>
                 {" "}
                 Home{" "}

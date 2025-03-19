@@ -8,8 +8,8 @@ const Background = () => {
   const currentPage = pages.find((page) => page.path == location.pathname);
   return (
     <>
-      <section className="   text-white flex justify-center pt-24">
-        <div className="flex-col  border-x-28 w-full  ">
+      <section className="   text-white flex justify-center md:pt-24">
+        <div className="flex-col  md:border-x-28 w-full  ">
           <div className="relative overflow-hidden h-40 ">
             <img src={back} className="w-full " />
             <div className="absolute top-0 w-full h-40 grid place-items-center">

@@ -8,7 +8,7 @@ const End = ({ isHompage }) => {
     <>
       <footer>
         <section className="   text-white flex justify-center">
-          <div className="    flex-col  border-x-28 w-full ">
+          <div className="    flex-col  md:border-x-28 w-full ">
             {isHompage ? (
               <div className="grid place-items-center bg-neutral-700  py-10">
                 <p className=" text-3xl md:text-5xl text-center font-medium">
