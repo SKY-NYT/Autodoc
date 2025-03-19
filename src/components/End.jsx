@@ -11,7 +11,7 @@ const End = ({ isHompage }) => {
           <div className="    flex-col  border-x-28 w-full ">
             {isHompage ? (
               <div className="grid place-items-center bg-neutral-700  py-10">
-                <p className=" text-5xl text-center font-medium">
+                <p className=" text-3xl md:text-5xl text-center font-medium">
                   Are You Interested in Our Services?
                 </p>
                 <br />
@@ -21,19 +21,21 @@ const End = ({ isHompage }) => {
                 </button>
               </div>
             ) : (
-              <div className=" bg-neutral-300 flex justify-center space-x-96 py-10 ">
+              <div className=" bg-neutral-300 grid place-items-center  md:flex  justify-center md:space-x-96 py-10 ">
                 <p className="text-black text-3xl text-center ">
                   Need One Of Them? Give Us a Call Now!
                 </p>
-                <button className="bg-orange-600 rounded-full px-7 py-2.5 ">
+                <br />
+                <button className="bg-orange-600 rounded-full px-7 py-2.5">
                   CONTACT US
                 </button>
               </div>
             )}
 
             <div className="bg-neutral-950  p-4 ">
-              <div className="flex  justify-around ">
+              <div className="md:flex justify-around ">
                 <div>
+                  <br />
                   <span className="text-xl">Our Services</span>
                   <br />
                   <br />
@@ -47,6 +49,7 @@ const End = ({ isHompage }) => {
                   </ul>
                 </div>
                 <div>
+                  <br />
                   <span span className="text-xl">
                     Opening Hours
                   </span>
@@ -61,6 +64,7 @@ const End = ({ isHompage }) => {
                   </div>
                 </div>
                 <div>
+                  <br />
                   <span span className="text-xl">
                     Contact Us
                   </span>
